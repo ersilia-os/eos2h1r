@@ -37,8 +37,8 @@ def predict(smiles_list):
         signatures = signaturizer.infer_from_smiles(smiles_list)
         results[ds]=signatures
 
-    # For each space, store the 3 signatures
-    output = [[], [], []]
+    # For each space, store the N signatures
+    output = [[] for _ in range(len(smiles_list))]
     for ds in DATASETS:
         output[0].extend(results[ds][0])
         output[1].extend(results[ds][1])
