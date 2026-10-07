@@ -2,13 +2,13 @@ Identifier: eos2h1r
 Slug: cc-signaturizer-3d-c
 Status: Ready
 Title: Chemical Checker Signaturizer 3D C1-5
-Description: Captures the network level of the Chemical Checker, five C spaces positioning
-  a compound by the biological roles, pathways, processes and interactions its targets
-  participate in. Building on a systematic analysis of stereoisomerism across more
-  than a million compounds, where about 40% of isomer pairs showed distinct bioactivity,
-  the descriptors were learned from three-dimensional molecular representations. Because
-  the networks infer signatures for compounds never assayed, output should be read
-  as a prediction of biological context.
+Description: Captures the network level of the Chemical Checker, five C spaces that
+  place a compound by the roles and metabolic pathways of its targets, the signalling
+  pathways and biological processes they belong to, and their position in the interactome.
+  These spaces derive from target binding data and were among the richest in stereoisomer
+  groups in the study behind the model, which fine-tuned Uni-Mol on three-dimensional
+  conformers of over a million Chemical Checker molecules. Signatures are inferred,
+  so read them as predicted biological context rather than recorded annotation.
 Deployment:
   - Local
 Source: Local
