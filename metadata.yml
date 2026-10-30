@@ -2,13 +2,14 @@ Identifier: eos2h1r
 Slug: cc-signaturizer-3d-c
 Status: Ready
 Title: Chemical Checker Signaturizer 3D C1-5
-Description: Captures the network level of the Chemical Checker, five C spaces that
-  place a compound by the roles and metabolic pathways of its targets, the signalling
-  pathways and biological processes they belong to, and their position in the interactome.
-  These spaces derive from target binding data and were among the richest in stereoisomer
-  groups in the study behind the model, which fine-tuned Uni-Mol on three-dimensional
-  conformers of over a million Chemical Checker molecules. Signatures are inferred,
-  so read them as predicted biological context rather than recorded annotation.
+Description: Captures the network level of the Chemical Checker, five C spaces 
+  that place a compound by the roles and metabolic pathways of its targets, the 
+  signalling pathways and biological processes they belong to, and their 
+  position in the interactome. These spaces derive from target binding data and 
+  were among the richest in stereoisomer groups in the study behind the model, 
+  which fine-tuned Uni-Mol on three-dimensional conformers of over a million 
+  Chemical Checker molecules. Signatures are inferred, so read them as predicted
+  biological context rather than recorded annotation.
 Deployment:
   - Local
 Source: Local
@@ -22,8 +23,8 @@ Output:
   - Value
 Output Dimension: 640
 Output Consistency: Fixed
-Interpretation: 640 stereochemistry-aware bioactivity features spanning the five network
-  spaces of the Chemical Checker.
+Interpretation: 640 stereochemistry-aware bioactivity features spanning the five
+  network spaces of the Chemical Checker.
 Tag:
   - Descriptor
   - Bioactivity profile
@@ -40,7 +41,7 @@ License: GPL-3.0-or-later
 Contributor: arnaucoma24
 Incorporation Date: '2025-06-25'
 Last Packaging Date: '2025-12-30'
-Release: v1.0.0
+Release: v1.1.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2h1r.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos2h1r
 Docker Architecture:
