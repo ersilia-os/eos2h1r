@@ -41,7 +41,7 @@ License: GPL-3.0-or-later
 Contributor: arnaucoma24
 Incorporation Date: '2025-06-25'
 Last Packaging Date: '2025-12-30'
-Release: v1.1.0
+Release: v1.1.1
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2h1r.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos2h1r
 Docker Architecture:
