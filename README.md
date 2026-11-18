@@ -2,7 +2,8 @@
 
 Captures the network level of the Chemical Checker, five C spaces that place a compound by the roles and metabolic pathways of its targets, the signalling pathways and biological processes they belong to, and their position in the interactome. These spaces derive from target binding data and were among the richest in stereoisomer groups in the study behind the model, which fine-tuned Uni-Mol on three-dimensional conformers of over a million Chemical Checker molecules. Signatures are inferred, so read them as predicted biological context rather than recorded annotation.
 
-This model was incorporated on 2025-06-25.Last packaged on 2025-12-30.
+This model was incorporated on 2025-06-25.
+Last packaged on 2025-12-30.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 640 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos2h1r](https://hub.docker.com/r/ersiliaos/eos2h1r)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2h1r.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2h1r.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos2h1r_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos2h1r_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `2728`
